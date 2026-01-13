@@ -85,7 +85,7 @@ Core value proposition:
 │  │  LLM Interface (Claude API / OpenAI / local)              │  │
 │  │  - Prompt templates per task type                         │  │
 │  │  - Context management (slide content, theme constraints)  │  │
-│  │  - Output validation &amp; retry logic                        │  │
+│  │  - Output validation & retry logic                        │  │
 │  └──────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────┘
                             │
@@ -95,8 +95,8 @@ Core value proposition:
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐ │
 │  │ Markdown    │  │ Theme       │  │ Validator               │ │
 │  │ Generator   │  │ Manager     │  │ - Syntax check          │ │
-│  │ - Frontmatter│ │ - List themes│ │ - Mermaid validation    │ │
-│  │ - Slide syntax││ - Apply theme│ │ - LaTeX validation      │ │
+│  │ - Frontmatter│  │ - List themes│  │ - Mermaid validation    │ │
+│  │ - Slide syntax│ │ - Apply theme│  │ - LaTeX validation      │ │
 │  │ - Code blocks│ │ - CSS vars  │  │ - Preview render test   │ │
 │  └──────┬──────┘  └──────┬──────┘  └───────────┬─────────────┘ │
 │         │                │                      │               │
