@@ -192,8 +192,6 @@ Content here
 graph LR
 A --> B --> C
 ```
-
-
 ```
 
 ---
