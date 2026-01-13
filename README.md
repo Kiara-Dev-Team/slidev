@@ -52,6 +52,63 @@ Presentation <b>slide</b>s for <b>dev</b>elopers 🧑‍💻👩‍💻👨‍�
 - ⚡️ [**Fast**](https://vitejs.dev) - instant reloading powered by [Vite](https://vitejs.dev)
 - 🛠 [**Hackable**](https://sli.dev/custom/) - using Vite plugins, Vue components, or any npm packages
 
+## 🤖 LLM-Powered Enhancements
+
+### 1. Auto-Generate Slides from Content
+Transform articles, documentation, or any text content into presentation slides automatically.
+
+```javascript
+// CLI tool: paste article/docs → get slides
+// "Summarize this into 10 slides with key points"
+npx slidev-ai generate --input article.md --slides 10
+```
+
+### 2. Voice-to-Slides
+Record your talk idea and let AI generate draft slides from your speech.
+
+```javascript
+// Whisper API → transcript → LLM → slides.md
+// "Record your talk idea, get draft slides"
+npx slidev-ai voice --output my-talk.md
+```
+
+### 3. Smart Speaker Notes
+LLM generates comprehensive presenter notes including talking points, timing estimates, and predicted Q&A.
+
+```javascript
+// Analyze slides and generate rich speaker notes
+npx slidev-ai notes --input slides.md --timing --qa-prep
+```
+
+### 4. Real-time Q&A Component
+Embed an AI-powered Q&A system directly into your presentation for live audience interaction.
+
+```vue
+<template>
+  <!-- Audience asks questions → AI answers based on slide context -->
+  <SlidevAIChat :context="slideContent" />
+</template>
+```
+
+### 5. Auto-Styling & Theme Suggestions
+Let AI analyze your content and recommend the perfect theme, colors, and layouts.
+
+```javascript
+// Analyze content → suggest appropriate theme, colors, layouts
+// "Technical content detected → use 'seriph' theme with code focus"
+npx slidev-ai theme --input slides.md --suggest
+```
+
+### 6. Content Enhancement
+AI-powered suggestions to improve your slides with diagrams, code examples, and better titles.
+
+```javascript
+// "Add relevant Mermaid diagram for this concept"
+// "Generate code example for this explanation"
+// "Suggest better title for this slide"
+npx slidev-ai enhance --input slides.md --diagrams --examples
+```
+
 ## Getting Started
 
 ### Try it Online ⚡️
